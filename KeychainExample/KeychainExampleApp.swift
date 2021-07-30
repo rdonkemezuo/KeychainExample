@@ -9,9 +9,11 @@ import SwiftUI
 
 @main
 struct KeychainExampleApp: App {
+    let userManager: UserAuthenticationManager = UserAuthenticationManager.shared
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environmentObject(userManager)
         }
     }
 }

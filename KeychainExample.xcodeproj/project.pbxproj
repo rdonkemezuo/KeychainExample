@@ -7,19 +7,43 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E70E516926B4580F000AE765 /* Date+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E70E516826B4580E000AE765 /* Date+Extension.swift */; };
+		E70E516B26B47D14000AE765 /* CustomAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E70E516A26B47D14000AE765 /* CustomAlertView.swift */; };
+		E70E516D26B4A1F8000AE765 /* AppAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = E70E516C26B4A1F8000AE765 /* AppAlert.swift */; };
 		E715A54D26B3213000FF7B55 /* KeychainExampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E715A54C26B3213000FF7B55 /* KeychainExampleApp.swift */; };
 		E715A54F26B3213000FF7B55 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E715A54E26B3213000FF7B55 /* ContentView.swift */; };
 		E715A55126B3213200FF7B55 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E715A55026B3213200FF7B55 /* Assets.xcassets */; };
 		E715A55426B3213200FF7B55 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E715A55326B3213200FF7B55 /* Preview Assets.xcassets */; };
+		E715A55C26B321BD00FF7B55 /* SigninView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E715A55B26B321BD00FF7B55 /* SigninView.swift */; };
+		E715A55E26B3260700FF7B55 /* UserNameTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = E715A55D26B3260700FF7B55 /* UserNameTextField.swift */; };
+		E715A56026B3262A00FF7B55 /* PasswordTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = E715A55F26B3262A00FF7B55 /* PasswordTextField.swift */; };
+		E715A56226B328AF00FF7B55 /* LoginButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E715A56126B328AF00FF7B55 /* LoginButton.swift */; };
+		E715A56426B32AD800FF7B55 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E715A56326B32AD800FF7B55 /* LoginViewModel.swift */; };
+		E715A56626B3469B00FF7B55 /* KeychainHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = E715A56526B3469B00FF7B55 /* KeychainHandler.swift */; };
+		E715A56826B3549000FF7B55 /* ActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E715A56726B3549000FF7B55 /* ActivityIndicator.swift */; };
+		E715A56A26B355C000FF7B55 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E715A56926B355C000FF7B55 /* HomeView.swift */; };
+		E715A56C26B367ED00FF7B55 /* BiometricAuthenticationHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = E715A56B26B367ED00FF7B55 /* BiometricAuthenticationHandler.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E70E516826B4580E000AE765 /* Date+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extension.swift"; sourceTree = "<group>"; };
+		E70E516A26B47D14000AE765 /* CustomAlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAlertView.swift; sourceTree = "<group>"; };
+		E70E516C26B4A1F8000AE765 /* AppAlert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppAlert.swift; sourceTree = "<group>"; };
 		E715A54926B3213000FF7B55 /* KeychainExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KeychainExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E715A54C26B3213000FF7B55 /* KeychainExampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainExampleApp.swift; sourceTree = "<group>"; };
 		E715A54E26B3213000FF7B55 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E715A55026B3213200FF7B55 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E715A55326B3213200FF7B55 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E715A55526B3213200FF7B55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E715A55B26B321BD00FF7B55 /* SigninView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SigninView.swift; sourceTree = "<group>"; };
+		E715A55D26B3260700FF7B55 /* UserNameTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserNameTextField.swift; sourceTree = "<group>"; };
+		E715A55F26B3262A00FF7B55 /* PasswordTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordTextField.swift; sourceTree = "<group>"; };
+		E715A56126B328AF00FF7B55 /* LoginButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginButton.swift; sourceTree = "<group>"; };
+		E715A56326B32AD800FF7B55 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		E715A56526B3469B00FF7B55 /* KeychainHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainHandler.swift; sourceTree = "<group>"; };
+		E715A56726B3549000FF7B55 /* ActivityIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityIndicator.swift; sourceTree = "<group>"; };
+		E715A56926B355C000FF7B55 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		E715A56B26B367ED00FF7B55 /* BiometricAuthenticationHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BiometricAuthenticationHandler.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +57,54 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E70E516E26B4A3E8000AE765 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E70E516A26B47D14000AE765 /* CustomAlertView.swift */,
+				E715A54E26B3213000FF7B55 /* ContentView.swift */,
+				E715A55B26B321BD00FF7B55 /* SigninView.swift */,
+				E715A56926B355C000FF7B55 /* HomeView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E70E516F26B4A3FF000AE765 /* Controls */ = {
+			isa = PBXGroup;
+			children = (
+				E715A56126B328AF00FF7B55 /* LoginButton.swift */,
+				E715A55D26B3260700FF7B55 /* UserNameTextField.swift */,
+				E715A56726B3549000FF7B55 /* ActivityIndicator.swift */,
+				E715A55F26B3262A00FF7B55 /* PasswordTextField.swift */,
+			);
+			path = Controls;
+			sourceTree = "<group>";
+		};
+		E70E517026B4A46B000AE765 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				E715A56326B32AD800FF7B55 /* LoginViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		E70E517126B4A48B000AE765 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				E70E516826B4580E000AE765 /* Date+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		E70E517226B4A49F000AE765 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				E70E516C26B4A1F8000AE765 /* AppAlert.swift */,
+				E715A56526B3469B00FF7B55 /* KeychainHandler.swift */,
+				E715A56B26B367ED00FF7B55 /* BiometricAuthenticationHandler.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
 		E715A54026B3213000FF7B55 = {
 			isa = PBXGroup;
 			children = (
@@ -52,8 +124,12 @@
 		E715A54B26B3213000FF7B55 /* KeychainExample */ = {
 			isa = PBXGroup;
 			children = (
+				E70E517226B4A49F000AE765 /* Helpers */,
+				E70E517126B4A48B000AE765 /* Extensions */,
+				E70E517026B4A46B000AE765 /* ViewModels */,
+				E70E516F26B4A3FF000AE765 /* Controls */,
+				E70E516E26B4A3E8000AE765 /* Views */,
 				E715A54C26B3213000FF7B55 /* KeychainExampleApp.swift */,
-				E715A54E26B3213000FF7B55 /* ContentView.swift */,
 				E715A55026B3213200FF7B55 /* Assets.xcassets */,
 				E715A55526B3213200FF7B55 /* Info.plist */,
 				E715A55226B3213200FF7B55 /* Preview Content */,
@@ -138,8 +214,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E715A56026B3262A00FF7B55 /* PasswordTextField.swift in Sources */,
+				E70E516B26B47D14000AE765 /* CustomAlertView.swift in Sources */,
+				E715A56226B328AF00FF7B55 /* LoginButton.swift in Sources */,
+				E715A56626B3469B00FF7B55 /* KeychainHandler.swift in Sources */,
+				E715A56A26B355C000FF7B55 /* HomeView.swift in Sources */,
 				E715A54F26B3213000FF7B55 /* ContentView.swift in Sources */,
+				E70E516926B4580F000AE765 /* Date+Extension.swift in Sources */,
 				E715A54D26B3213000FF7B55 /* KeychainExampleApp.swift in Sources */,
+				E715A55C26B321BD00FF7B55 /* SigninView.swift in Sources */,
+				E715A55E26B3260700FF7B55 /* UserNameTextField.swift in Sources */,
+				E70E516D26B4A1F8000AE765 /* AppAlert.swift in Sources */,
+				E715A56C26B367ED00FF7B55 /* BiometricAuthenticationHandler.swift in Sources */,
+				E715A56826B3549000FF7B55 /* ActivityIndicator.swift in Sources */,
+				E715A56426B32AD800FF7B55 /* LoginViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,6 +357,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"KeychainExample/Preview Content\"";
+				DEVELOPMENT_TEAM = ZC99J57MVR;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = KeychainExample/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -290,6 +379,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"KeychainExample/Preview Content\"";
+				DEVELOPMENT_TEAM = ZC99J57MVR;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = KeychainExample/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
