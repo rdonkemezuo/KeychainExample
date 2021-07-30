@@ -10,14 +10,14 @@ import Security
 import LocalAuthentication
 
 /// - TAG: A class that handles biometric (TouchID && FaceID) authentication
-class BiometricAuthenticationHandler {
+class BiometricAuthenticationManager {
     struct Constants {
         static let localizedMessage = "Access requires authentication"
         static let biometric_auth_authorization_requestKey = "biometricAuthorizationRequest"
         static let biometric_auth_authorizedKey = "biometricAuthorized"
         static let biometric_auth_authorization_request_response_dateKey = "responseDate"
     }
-    static let shared = BiometricAuthenticationHandler()
+    static let shared = BiometricAuthenticationManager()
     private var isDeviceSupported = false
     private var userAuthorizedBiometricAuth = false
     var requestBiometricAuthFromUser: Bool { /// A variable that returns if we should request biometric authentication from user

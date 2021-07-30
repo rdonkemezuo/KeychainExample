@@ -8,7 +8,7 @@
 import Foundation
 
 /// - TAG: A class that handles the saving, fetching, deleting and updating of keychain
-class KeychainHandler {
+class KeychainManager {
 
     struct Constants {
         static let keychain_account_name_key = "keychain_account" /// The acocunt name in the keychain where we are storing the login credentials. Can be named as appropriate
@@ -18,7 +18,7 @@ class KeychainHandler {
         /// The aim is to enable us clear our keychain records if the app get's deleted by the user
     }
 
-    static let shared = KeychainHandler()
+    static let shared = KeychainManager()
     /// A variable that detect if password is stored in keychain
     var areCredentialsSavedInKeychain = false
     let userDefaults = UserDefaults.standard

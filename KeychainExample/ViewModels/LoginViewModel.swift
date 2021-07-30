@@ -21,8 +21,8 @@ class LoginViewModel: ObservableObject {
     var disableLoginButton: Bool {
         return username.isEmpty || password.isEmpty
     }
-    let keychainHandler = KeychainHandler.shared
-    let biometricAuthenticationHandler = BiometricAuthenticationHandler.shared
+    let keychainHandler = KeychainManager.shared
+    let biometricAuthenticationHandler = BiometricAuthenticationManager.shared
     
     init() {
         let credentialsStoredInKeychain = keychainHandler.fetchLoginCredentialsFromKeychain()

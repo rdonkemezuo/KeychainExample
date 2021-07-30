@@ -19,10 +19,10 @@
 		E715A56026B3262A00FF7B55 /* PasswordTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = E715A55F26B3262A00FF7B55 /* PasswordTextField.swift */; };
 		E715A56226B328AF00FF7B55 /* LoginButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E715A56126B328AF00FF7B55 /* LoginButton.swift */; };
 		E715A56426B32AD800FF7B55 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E715A56326B32AD800FF7B55 /* LoginViewModel.swift */; };
-		E715A56626B3469B00FF7B55 /* KeychainHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = E715A56526B3469B00FF7B55 /* KeychainHandler.swift */; };
+		E715A56626B3469B00FF7B55 /* KeychainManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E715A56526B3469B00FF7B55 /* KeychainManager.swift */; };
 		E715A56826B3549000FF7B55 /* ActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E715A56726B3549000FF7B55 /* ActivityIndicator.swift */; };
 		E715A56A26B355C000FF7B55 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E715A56926B355C000FF7B55 /* HomeView.swift */; };
-		E715A56C26B367ED00FF7B55 /* BiometricAuthenticationHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = E715A56B26B367ED00FF7B55 /* BiometricAuthenticationHandler.swift */; };
+		E715A56C26B367ED00FF7B55 /* BiometricAuthenticationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E715A56B26B367ED00FF7B55 /* BiometricAuthenticationManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,10 +40,10 @@
 		E715A55F26B3262A00FF7B55 /* PasswordTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordTextField.swift; sourceTree = "<group>"; };
 		E715A56126B328AF00FF7B55 /* LoginButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginButton.swift; sourceTree = "<group>"; };
 		E715A56326B32AD800FF7B55 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
-		E715A56526B3469B00FF7B55 /* KeychainHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainHandler.swift; sourceTree = "<group>"; };
+		E715A56526B3469B00FF7B55 /* KeychainManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainManager.swift; sourceTree = "<group>"; };
 		E715A56726B3549000FF7B55 /* ActivityIndicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityIndicator.swift; sourceTree = "<group>"; };
 		E715A56926B355C000FF7B55 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
-		E715A56B26B367ED00FF7B55 /* BiometricAuthenticationHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BiometricAuthenticationHandler.swift; sourceTree = "<group>"; };
+		E715A56B26B367ED00FF7B55 /* BiometricAuthenticationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BiometricAuthenticationManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,8 +99,8 @@
 			isa = PBXGroup;
 			children = (
 				E70E516C26B4A1F8000AE765 /* AppAlert.swift */,
-				E715A56526B3469B00FF7B55 /* KeychainHandler.swift */,
-				E715A56B26B367ED00FF7B55 /* BiometricAuthenticationHandler.swift */,
+				E715A56526B3469B00FF7B55 /* KeychainManager.swift */,
+				E715A56B26B367ED00FF7B55 /* BiometricAuthenticationManager.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -217,7 +217,7 @@
 				E715A56026B3262A00FF7B55 /* PasswordTextField.swift in Sources */,
 				E70E516B26B47D14000AE765 /* CustomAlertView.swift in Sources */,
 				E715A56226B328AF00FF7B55 /* LoginButton.swift in Sources */,
-				E715A56626B3469B00FF7B55 /* KeychainHandler.swift in Sources */,
+				E715A56626B3469B00FF7B55 /* KeychainManager.swift in Sources */,
 				E715A56A26B355C000FF7B55 /* HomeView.swift in Sources */,
 				E715A54F26B3213000FF7B55 /* ContentView.swift in Sources */,
 				E70E516926B4580F000AE765 /* Date+Extension.swift in Sources */,
@@ -225,7 +225,7 @@
 				E715A55C26B321BD00FF7B55 /* SigninView.swift in Sources */,
 				E715A55E26B3260700FF7B55 /* UserNameTextField.swift in Sources */,
 				E70E516D26B4A1F8000AE765 /* AppAlert.swift in Sources */,
-				E715A56C26B367ED00FF7B55 /* BiometricAuthenticationHandler.swift in Sources */,
+				E715A56C26B367ED00FF7B55 /* BiometricAuthenticationManager.swift in Sources */,
 				E715A56826B3549000FF7B55 /* ActivityIndicator.swift in Sources */,
 				E715A56426B32AD800FF7B55 /* LoginViewModel.swift in Sources */,
 			);
